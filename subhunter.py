@@ -75,7 +75,7 @@ def main():
             print(f"[*] Wordlist yükleniyor: {Fore.CYAN}{wordlist_file}{Style.RESET_ALL}")
             with open(wordlist_file, "r", encoding="utf-8", errors="ignore") as f:
                 subdomains = [line.strip() for line in f if line.strip()]
-        else:
+      0  else:
             print(f"{Fore.RED}[!] Dosya bulunamadı, varsayılan liste kullanılıyor.{Style.RESET_ALL}")
             subdomains = DEFAULT_SUBDOMAINS
     else:
@@ -114,8 +114,8 @@ def main():
 
 if __name__ == "__main__":
     main()
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 45facbeb4684d1d5f7e1610deefdf0bdb2d3014f
+
+
+
+
